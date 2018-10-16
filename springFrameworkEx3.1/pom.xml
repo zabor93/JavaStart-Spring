@@ -9,7 +9,19 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springFrameworkEx1.1</artifactId>
+    <artifactId>springFrameworkEx3.1</artifactId>
 
+    <properties>
+        <spring-framework.version>5.0.6.RELEASE</spring-framework.version>
+    </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring-framework.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>

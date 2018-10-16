@@ -9,10 +9,14 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>spring.start</module>
+        <module>springFrameworkEx1.1</module>
         <module>springFrameworkEx1.2</module>
         <module>springFrameworkEx1.3</module>
+        <module>springFrameworkEx3.1</module>
     </modules>
 
+    <properties>
+        <spring-framework.version>5.0.6.RELEASE</spring-framework.version>
+    </properties>
 
 </project>

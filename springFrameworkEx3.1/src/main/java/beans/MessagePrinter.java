@@ -1,0 +1,29 @@
+package beans;
+
+public class MessagePrinter {
+
+
+    private MessageProducer messageProducer;
+
+    public MessageProducer getMessageProducer() {
+        return messageProducer;
+    }
+
+    public void setMessageProducer(MessageProducer messageProducer) {
+        this.messageProducer = messageProducer;
+    }
+
+    public MessagePrinter() {
+    }
+
+    public MessagePrinter(MessageProducer messageProducer) {
+        this.messageProducer = messageProducer;
+    }
+
+    public void printMessage() {
+        System.out.println(messageProducer.getMessage());
+
+
+
+    }
+}
