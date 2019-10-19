@@ -1,8 +1,8 @@
-package app;
+package pl.javastart;
 
-import beans.MessagePrinter;
-import beans.MessageProducer;
-import beans.SimpleMessageProducer;
+import pl.javastart.beans.MessagePrinter;
+import pl.javastart.beans.MessageProducer;
+import pl.javastart.beans.SimpleMessageProducer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

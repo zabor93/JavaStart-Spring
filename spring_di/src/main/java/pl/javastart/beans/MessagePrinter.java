@@ -1,10 +1,9 @@
-package beans;
-
-import beans.MessageProducer;
+package pl.javastart.beans;
 
 public class MessagePrinter {
 
     private MessageProducer messageProducer;
+
 
     public MessagePrinter(MessageProducer messageProducer) {
         this.messageProducer = messageProducer;

@@ -15,10 +15,21 @@
         <module>springFrameworkEx3.1</module>
         <module>springaop</module>
         <module>spring_di</module>
+        <module>spring-di-auto</module>
     </modules>
 
     <properties>
         <spring-framework.version>5.0.6.RELEASE</spring-framework.version>
     </properties>
+
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring-framework.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
