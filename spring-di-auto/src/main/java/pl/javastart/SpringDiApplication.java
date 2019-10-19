@@ -2,6 +2,7 @@ package pl.javastart;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import pl.javastart.beans.MessageDecorator;
 import pl.javastart.beans.MessagePrinter;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import pl.javastart.beans.MessageProducer;
