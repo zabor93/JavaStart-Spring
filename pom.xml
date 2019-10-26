@@ -16,6 +16,7 @@
         <module>springaop</module>
         <module>spring_di</module>
         <module>spring-di-auto</module>
+        <module>jpa_se</module>
     </modules>
 
     <properties>
